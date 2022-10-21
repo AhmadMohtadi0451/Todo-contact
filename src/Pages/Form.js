@@ -20,7 +20,7 @@ const Form = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (stata === "add") 
+    if (stata === "add") {
       dispatch(addContact(form));
     } else if (stata === "update") {
       dispatch(updateContact(form));
