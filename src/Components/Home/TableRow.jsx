@@ -32,11 +32,6 @@ const TableRow = ({ contact }) => {
         </Button>
       </Grid>
       <Grid p={2}>
-        <Button variant={"outlined"} sx={{ borderRadius: 2 }}>
-          INFO
-        </Button>
-      </Grid>
-      <Grid p={2}>
         <Link to={`/updateContact/${contact.id}`}>
           <Button
             variant={"outlined"}
